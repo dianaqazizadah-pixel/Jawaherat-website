@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jewelry Blog - Fully Responsive</title>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" 
+integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- AOS (Animate On Scroll) for scroll animations -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="single-blog.css">
+
+</head>
+<body>
+
+
+         <!-- header -->
+  <nav>
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-3 ">
+        <div class="logo"><img class="w-50 h-50" src="../porject-bootstrap.4/Annotation 2025-11-02 080054.png" alt=""></div>
+      </div>
+ 
+      <div class="col-lg-7">
+       <div class="nav-links">
+         <a href="boot.html">Home</a>
+         <a href="about.html" >About</a>
+         <a href="services.html">Services</a>
+         <a href="Portfolio.html">Portfolio</a>
+         <a href="pricing.html">Pricing</a>
+         <a href="team.html">Team</a>
+         <a href="blog.html">Blog</a>
+         <a href="contact.html">Contact</a>
+       </div>
+   
+      </div>
+     </div>
+    </div>
+     <!-- <div class="search-box">
+       <input class="input1" type="text" placeholder="Search...">
+       <button>🔍</button>
+     </div> -->
+ 
+     <div class="menu-icon" onclick="openMenu()">☰</div>
+   </nav>
+ 
+   <!-- Mobile Menu -->
+ <div class="mobile-menu" id="mobileMenu">
+     <div class="close-icon" onclick="closeMenu()">×</div> <!-- ⬅️ این خط را اضافه کن -->
+     <a href="boot.html">Home</a>
+     <a href="about.html">About</a>
+     <a href="services.html">Services</a>
+     <a href="Portfolio.html">Portfolio</a>
+     <a href="pricing.html">Pricing</a>
+     <a href="team.html">Team</a>
+     <a href="blog.html">Blog</a>
+     <a href="contact.html">Contact</a>
+   </div>
+  
+    
+<div style="margin-top: 120px;">
+    <!-- MAIN -->
+<main class="container my-4"  style="overflow-x: hidden;">
+    <div class="row g-4"  style="overflow-x: hidden;">
+  
+      <!-- POSTS -->
+      <div class="col-12 col-lg-5">
+  
+        <article class="post-card">
+          <img data-aos="fade-down" src="../porject-bootstrap.4/Annotation 2025-10-29 094954.png" alt="Jewelry">
+          <div class="p-3">
+            <h1 class="post-title" data-aos="fade-down">The Art of Jewelry</h1>
+            <div class="post-meta" data-aos="fade-down">By Expert · 2024</div>
+            <p class="post-text" data-aos="fade-down">
+              Jewelry design is storytelling, craftsmanship meets emotion. Every gemstone tells a story.
+            </p>
+  
+            <div class="row g-2 mt-2"  style="overflow-x: hidden;">
+              <div class="col-12 col-md-4">
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" src="../porject-bootstrap.4/img (35).png" alt="">
+              </div>
+              <div class="col-12 col-md-4">
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" src="../porject-bootstrap.4/Annotation 2025-10-29 081232.png" alt="">
+              </div>
+              <div class="col-12 col-md-4">
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" src="../porject-bootstrap.4/img (38).png" alt="">
+              </div>
+            </div>
+  
+            <p class="post-text mt-3">Future of jewelry is bold, personal, and sustainable.</p>
+          </div>
+        </article>
+        <!-- SECOND POST -->
+        <article class="post-card mt-3">
+          <div class="row g-0"  style="overflow-x: hidden;">
+            <div class="col-4 mt-3 me-1">
+              <img data-aos="fade-down" src="../porject-bootstrap.4/img (36).png" alt="">
+            </div>
+            <div class="col-7 p-3" data-aos="fade-down">
+              <h3 class="post-title fs-6">Jewelry Trends 2025</h3>
+              <div class="post-meta">2 days ago</div>
+              <p class="post-text small">Discover new gemstones and design innovations.</p>
+              <a class="btn btn-outline-light btn-sm">Read More</a>
+            </div>
+          </div>
+        </article>
+  
+      </div>
+  
+      <!-- SIDEBAR -->
+      <aside class="col-12 col-lg-4">
+        <input class="form-control bg-dark text-light mb-4" placeholder="Search...">
+
+        <a class="category1-pill">Gemstones</a>
+        <a class="category-pill">Trends</a>
+        <a class="category-pill">Care</a>
+        <a class="category-pill">Design</a>
+  
+        <hr class="text-secondary">
+  
+        <h6 class="fw-bold mb-3">Recent Posts</h6>
+        <div class="recent-post d-flex align-items-center mb-3">
+          <img data-aos="zoom-out" src="../porject-bootstrap.4/Annotation 2025-10-29 101513.png" alt="">
+          <div class="ms-2 small me-3">
+            <div class="fw-bold">Diamond Tips</div>
+            <div class="text-muted">1 week ago</div>
+          </div>
+        </div>
+        <div class="recent-post d-flex align-items-center mb-3">
+          <img data-aos="zoom-out" src="../porject-bootstrap.4/Annotation 2025-10-29 103317.png" alt="">
+          <div class="ms-2 small me-3">
+            <div class="fw-bold">Rose & Gold</div>
+            <div class="text-muted">2 weeks ago</div>
+          </div>
+        </div>
+        <div class="recent-post d-flex align-items-center mb-3">
+            <img data-aos="zoom-out" src="../porject-bootstrap.4/Annotation 2025-10-29 102238.png" alt="">
+            <div class="ms-2 small me-3">
+              <div class="fw-bold">Diamond Tips</div>
+              <div class="text-muted">1 week ago</div>
+            </div>
+          </div>
+          <div class="recent-post d-flex align-items-center mb-3">
+            <img data-aos="zoom-out" src="../porject-bootstrap.4/Annotation 2025-10-29 101139.png" alt="">
+            <div class="ms-2 small me-3">
+              <div class="fw-bold">Rose & Gold</div>
+              <div class="text-muted">2 weeks ago</div>
+            </div>
+          </div>
+          <div class="recent-post d-flex align-items-center mb-3">
+            <img  data-aos="zoom-out" src="../porject-bootstrap.4/Annotation 2025-10-29 102405.png" alt="">
+            <div class="ms-2 small me-3">
+              <div class="fw-bold">Diamond Tips</div>
+              <div class="text-muted">1 week ago</div>
+            </div>
+          </div>
+         
+      </aside>
+  
+    </div>
+  </main>
+  
+</div>
+<!-- footer -->
+
+<footer>
+    <hr>
+    <div class="footer-container">
+  
+      <div class="footer-section">
+        <h3>Payment Methods</h3>
+         <div class="payment-logos">
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" alt="Visa">
+        </div> 
+      </div>
+  
+      <div class="footer-section">
+        <h3>Help & Info</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Jewelry Care</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Stores</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h3>Stay Connected</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="newsletter">
+          <p>Join our newsletter to receive updates on new jewelry collections and exclusive offers.</p>
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">SEND</button>
+        </div>
+      </div>
+  
+    </div>
+  <hr>
+    <div class="footer-bottom">
+      © 2025 DiamondAura Jewelry | Designed by Diana Qazizadah
+    </div>
+  </footer>
+  
+
+
+ <!-- bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+ <!-- nav bar -->
+<script>
+  function openMenu() {
+    document.getElementById('mobileMenu').classList.add('active');
+  }
+
+  function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('active');
+  }
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    once: true
+  });
+</script>
+</body>
+</html>

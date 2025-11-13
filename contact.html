@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Responsive</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+  <!-- AOS (Animate On Scroll) for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="contact.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ">
+          <div class="logo"><img class="w-50 h-50" src="../porject-bootstrap.4/Annotation 2025-11-02 080054.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="nav-links">
+            <a href="boot.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="team.html">Team</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="search-box">
+      <input class="input1" type="text" placeholder="Search...">
+      <button>🔍</button>
+    </div> -->
+
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="close-icon" onclick="closeMenu()">×</div> <!-- ⬅️ این خط را اضافه کن -->
+    <a href="boot.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="team.html">Team</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <div class="container" style="margin-top: 100px;">
+    <h2 class="text-center text-light">Contact</h2>
+  </div>
+  <div class="container mt-5">
+    <div class="row ">
+
+
+      <div class="col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="photo-card" aria-hidden="true">
+          <!-- عکس را می‌توانی اینجا عوض کنی؛ لینک نمونه بصورت داده‌ای قرار داده شده -->
+          <img src="../porject-bootstrap.4/Annotation 2025-10-28 051927.png" alt="Portrait" />
+        </div>
+      </div>
+
+      <div class="col-md-5" data-aos="fade-up">
+        <div class="contact-card" aria-labelledby="contactHeading">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap;">
+              <div style="flex:1;min-width:220px;">
+                <h2 id="contactHeading" class="h1-like">Get in touch</h2>
+                <p class="subtle">We’d love to hear from you — questions, partnerships or press.</p>
+              </div>
+
+              <div style="min-width:160px;color:var(--muted);">
+                <div class="contact-right">
+
+                  <div style="height:6px"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <form class="form" action="#" onsubmit="event.preventDefault(); alert('Form submitted (demo).');">
+              <div class="row">
+                <div class="field">
+                  <label for="full">Full Name</label>
+                  <input id="full" name="full" type="text" placeholder="Your name" required />
+                </div>
+
+                <div class="field">
+                  <label for="email">E-mail</label>
+                  <input id="email" name="email" type="email" placeholder="name@example.com" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="field" style="flex:1;">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                </div>
+              </div>
+
+              <div class="submit-row">
+                <button class="btn" type="submit">Contact Us</button>
+
+
+              </div>
+            </form>
+          </div>
+          <div class="contact-bottom" aria-hidden="true">
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <strong style="font-weight:700;">Customer service</strong>
+              <div class="muted">Mon–Fri · 9am–6pm PST</div>
+            </div>
+
+            <div class="socials" aria-label="social links">
+              <a href="#" title="Facebook" aria-label="Facebook">
+                <!-- facebook svg -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22 12.07C22 6.48 17.52 2 11.93 2S1.86 6.48 1.86 12.07C1.86 17.06 5.94 21.09 10.8 21.88v-7.06H8.28v-2.75h2.52V9.3c0-2.5 1.5-3.88 3.79-3.88 1.1 0 2.25.2 2.25.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.75h-2.34V21.9c4.86-.79 8.94-4.82 8.94-9.83z"
+                    fill="currentColor" opacity="0.9" />
+                </svg>
+              </a>
+
+              <a href="#" title="Instagram" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.9a4.1 4.1 0 1 0 .001 8.201A4.1 4.1 0 0 0 12 7.9zM18.2 6.3a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0z"
+                    fill="currentColor" opacity="0.9" />
+                </svg>
+              </a>
+
+              <a href="#" title="Twitter" aria-label="Twitter">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22 5.93c-.63.28-1.3.47-2 .56a3.52 3.52 0 0 0-6 2.55c0 .27.02.55.08.81C9.7 9.9 6.1 8 3.8 5.2c-.3.5-.5 1.08-.5 1.72 0 1.2.61 2.25 1.54 2.87a3.5 3.5 0 0 1-1.6-.44v.04c0 1.7 1.18 3.12 2.73 3.44-.28.08-.57.12-.87.12-.21 0-.42-.02-.62-.06a3.5 3.5 0 0 0 3.26 2.43A7.04 7.04 0 0 1 2 19.54a9.96 9.96 0 0 0 5.4 1.57c6.48 0 10.03-5.46 10.03-10.2 0-.16 0-.32-.01-.48.7-.5 1.3-1.12 1.78-1.83-.64.28-1.33.47-2.03.56z"
+                    fill="currentColor" opacity="0.9" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <footer class="mt-5">
+
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h3>Payment Methods</h3>
+        <div class="payment-logos">
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" alt="Visa">
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196565.png" alt="MasterCard">
+          <img src="https://cdn-icons-png.flaticon.com/512/196/196566.png" alt="PayPal">
+
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Help & Info</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Jewelry Care</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Stores</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Stay Connected</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="newsletter">
+          <p>Join our newsletter to receive updates on new jewelry collections and exclusive offers.</p>
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">SEND</button>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      © 2025 DiamondAura Jewelry | Designed by Diana Qazizadah
+    </div>
+  </footer>
+
+
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- nav bar -->
+  <script>
+    function openMenu() {
+      document.getElementById('mobileMenu').classList.add('active');
+    }
+
+    function closeMenu() {
+      document.getElementById('mobileMenu').classList.remove('active');
+    }
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true
+    });
+  </script>
+
+</body>
+
+</html>
