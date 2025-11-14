@@ -142,7 +142,7 @@ cursor: pointer;
   /* Header Section */
   .hero {
     position: relative;
-    background: url('../porject-bootstrap.4/Annotation 2025-10-28 053952.png') center/cover no-repeat;
+    background: url('photo39.png') center/cover no-repeat;
     height: 400px;
     display: flex;
     align-items: center;
@@ -338,3 +338,4 @@ cursor: pointer;
       justify-content: center;
     }
   }
+
